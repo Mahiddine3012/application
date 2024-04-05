@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="859.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.mahiddine.Controllers.Page">
+   <children>
+      <Button fx:id="ajouter" layoutX="729.0" layoutY="625.0" mnemonicParsing="false" onAction="#id_Btn_Ajouter" text="Ajouter " />
+      <Button fx:id="chargement" layoutX="57.0" layoutY="41.0" mnemonicParsing="false" onAction="#id_Btn_Chargement" text="Chargement" />
+      <TextField fx:id="titre" layoutX="57.0" layoutY="111.0" />
+      <TextField fx:id="description" layoutX="226.0" layoutY="111.0" />
+      <TextField fx:id="date" layoutX="396.0" layoutY="111.0" />
+      <TextField fx:id="statut" layoutX="566.0" layoutY="111.0" />
+      <TextField layoutX="57.0" layoutY="161.0" />
+      <TextField layoutX="57.0" layoutY="215.0" />
+      <TextField layoutX="226.0" layoutY="161.0" />
+      <TextField layoutX="396.0" layoutY="161.0" />
+      <TextField layoutX="566.0" layoutY="161.0" />
+      <TextField layoutX="226.0" layoutY="215.0" />
+      <TextField layoutX="396.0" layoutY="215.0" />
+      <TextField layoutX="566.0" layoutY="215.0" />
+      <Label layoutX="103.0" layoutY="84.0" text="Titre" />
+      <Label layoutX="280.0" layoutY="84.0" text="Description" />
+      <Label layoutX="430.0" layoutY="84.0" text="date de fin " />
+      <Label layoutX="624.0" layoutY="84.0" text="Statut" />
+   </children>
+</Pane>
